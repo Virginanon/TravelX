@@ -1,0 +1,1 @@
+import{b0 as t,aV as a,aW as r,aX as s}from"./index-C9sUazaC.js";const n={},o={class:"settings-container right-container bg-white/80 dark:text-white dark:bg-gray-900/80 flex flex-col rounded-2xl"};function c(i,e){return s(),a("div",o,e[0]||(e[0]=[r("div",{class:"text-4xl font-light text-blue-600 dark:text-blue-400"},"设置",-1)]))}const d=t(n,[["render",c]]);export{d as default};

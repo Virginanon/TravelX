@@ -1,0 +1,19 @@
+// GROUP ANIMATIONS
+// 定义动画
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// 生成延迟动画类
+.generate-delay-animation(@n, @i: 1) when (@i <= @n) {
+  .delay-show:nth-child(@{i}) {
+    animation: fadeIn 0.5s ease-out (@i * 0.15s + 0.2s) both;
+  }
+  .generate-delay-animation(@n, (@i + 1));
+}
+
+// 应用生成器（示例：生成10个子元素的动画）
+.delay-show-container {
+  .generate-delay-animation(10);
+}

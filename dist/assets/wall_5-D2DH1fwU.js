@@ -1,0 +1,1 @@
+const a="/TravelX/assets/wall_1-MtbLI8xN.jpg",l="/TravelX/assets/wall_2-BfuHcGUM.jpg",s="/TravelX/assets/wall_3-BC9OtY6O.jpg",t="/TravelX/assets/wall_4-vnKxhiox.jpg",e="/TravelX/assets/wall_5-BH547FL9.jpg";export{l as a,s as b,t as c,e as d,a as w};
