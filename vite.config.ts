@@ -18,4 +18,7 @@ export default defineConfig({
     },
     base: "/TravelX/",
     publicDir: "public",
+    build: {
+        outDir: "docs",
+    },
 });
